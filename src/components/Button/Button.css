@@ -1,0 +1,13 @@
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4169E1;
+    color: #FFFFFF;
+    width: 6vw;
+    min-width: 80px;
+    height: 60px;
+    margin: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+}

@@ -1,0 +1,69 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    width: 92vw;
+    gap: 5px;
+    margin-top: 50px; 
+}
+
+h1{
+    color:#4169E1
+}
+
+.inputDiv{
+    display: flex;
+    width: 35vw;
+    height: 30px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+input{
+    height:auto;
+    width: 20vw;
+    min-width: 200px;
+    border-radius: 15px;
+    border: #4169E1 1px solid
+}
+
+input:focus{
+    color: #0D21af;
+    border-color: #0D214f;
+    border-width: 2px;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #4169e1;
+}
+
+label{
+    color: #0D21af;
+    font-size: 20px;
+    min-width: 150px;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.buttonsDiv{
+    display: flex;
+}
+
+span{
+    color:red
+}
+
+.btnFinish{
+    width: 120px;
+}
+
+.buttonsfsh{
+    display: flex;
+}
